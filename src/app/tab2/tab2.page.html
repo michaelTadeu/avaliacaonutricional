@@ -1,0 +1,126 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>
+     Alimentação
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+      <ion-card>
+          <ion-card-header>
+              <ion-card-title>10 Passos Para Alimentação Adequada e Saudável</ion-card-title>
+            </ion-card-header>
+        <div class="acordion">
+          <ion-item [ngClass]="{'activated':acordionAtivo=='passo-1'}" (click)="openAcordion('passo-1')" >
+            <ion-icon name="help-circle-outline" slot="start"></ion-icon>
+            <ion-label>Passo 1</ion-label>
+            <ion-icon name="ios-arrow-{{acordionAtivo=='passo-1'?'up':'down'}}" slot="end"></ion-icon>
+          </ion-item>
+          <div class="body" [ngClass]="{'active':acordionAtivo=='passo-1'}">
+            Fazer de alimentos in natura ou minimamente processados a base da alimentação.
+          </div>
+      </div>
+      <div class="acordion">
+          <ion-item [ngClass]="{'activated':acordionAtivo=='passo-2'}" (click)="openAcordion('passo-2')">
+            <ion-icon name="help-circle-outline" slot="start"></ion-icon>
+            <ion-label>Passo 2</ion-label>
+            <ion-icon name="ios-arrow-{{acordionAtivo=='passo-2'?'up':'down'}}" slot="end"></ion-icon>
+          </ion-item>
+          <div class="body" [ngClass]="{'active':acordionAtivo=='passo-2'}">
+            Utilizar óleos, gorduras, sal e açúcar em pequenas quantidades ao temperar e cozinhar alimentos e criar preparações culinárias.
+          </div>
+      </div>
+      <div class="acordion">
+          <ion-item [ngClass]="{'activated':acordionAtivo=='passo-3'}" (click)="openAcordion('passo-3')">
+            <ion-icon name="help-circle-outline" slot="start"></ion-icon>
+            <ion-label>Passo 3</ion-label>
+            <ion-icon name="ios-arrow-{{acordionAtivo=='passo-3'?'up':'down'}}" slot="end"></ion-icon>
+          </ion-item>
+          <div class="body" [ngClass]="{'active':acordionAtivo=='passo-3'}">
+            Limitar o consumo de alimentos processados.
+          </div>
+      </div>
+      <div class="acordion">
+          <ion-item [ngClass]="{'activated':acordionAtivo=='passo-4'}" (click)="openAcordion('passo-4')">
+            <ion-icon name="help-circle-outline" slot="start"></ion-icon>
+            <ion-label>Passo 4</ion-label>
+            <ion-icon name="ios-arrow-{{acordionAtivo=='passo-4'?'up':'down'}}" slot="end"></ion-icon>
+          </ion-item>
+          <div class="body" [ngClass]="{'active':acordionAtivo=='passo-4'}">
+            Evitar o consumo de alimentos ultraprocessados.
+          </div>
+      </div>
+      <div class="acordion">
+          <ion-item [ngClass]="{'activated':acordionAtivo=='passo-5'}" (click)="openAcordion('passo-5')">
+            <ion-icon name="help-circle-outline" slot="start"></ion-icon>
+            <ion-label>Passo 5</ion-label>
+            <ion-icon name="ios-arrow-{{acordionAtivo=='passo-5'?'up':'down'}}" slot="end"></ion-icon>
+          </ion-item>
+          <div class="body" [ngClass]="{'active':acordionAtivo=='passo-5'}">
+            Comer com regularidade e atenção em ambientes apropriados e, sempre que possível, com companhia.
+          </div>
+      </div>
+      <div class="acordion">
+          <ion-item [ngClass]="{'activated':acordionAtivo=='passo-6'}" (click)="openAcordion('passo-6')">
+            <ion-icon name="help-circle-outline" slot="start"></ion-icon>
+            <ion-label>Passo 6</ion-label>
+            <ion-icon name="ios-arrow-{{acordionAtivo=='passo-6'?'up':'down'}}" slot="end"></ion-icon>
+          </ion-item>
+          <div class="body" [ngClass]="{'active':acordionAtivo=='passo-6'}">
+            Fazer compras em locais que ofertem variedades de alimentos in natura ou minimamente processados.
+          </div>
+      </div>
+      <div class="acordion">
+          <ion-item [ngClass]="{'activated':acordionAtivo=='passo-7'}" (click)="openAcordion('passo-7')">
+            <ion-icon name="help-circle-outline" slot="start"></ion-icon>
+            <ion-label>Passo 7</ion-label>
+            <ion-icon name="ios-arrow-{{acordionAtivo=='passo-7'?'up':'down'}}" slot="end"></ion-icon>
+          </ion-item>
+          <div class="body" [ngClass]="{'active':acordionAtivo=='passo-7'}">
+            Desenvolver, exercitar e partilhar habilidades culinárias.
+          </div>
+      </div>
+      <div class="acordion">
+          <ion-item [ngClass]="{'activated':acordionAtivo=='passo-8'}" (click)="openAcordion('passo-8')">
+            <ion-icon name="help-circle-outline" slot="start"></ion-icon>
+            <ion-label>Passo 8</ion-label>
+            <ion-icon name="ios-arrow-{{acordionAtivo=='passo-8'?'up':'down'}}" slot="end"></ion-icon>
+          </ion-item>
+          <div class="body" [ngClass]="{'active':acordionAtivo=='passo-8'}">
+            Planejar o uso do tempo para dar à alimentação o espaço que ela merece.
+          </div>
+      </div>
+      <div class="acordion">
+          <ion-item [ngClass]="{'activated':acordionAtivo=='passo-9'}" (click)="openAcordion('passo-9')">
+            <ion-icon name="help-circle-outline" slot="start"></ion-icon>
+            <ion-label>Passo 9</ion-label>
+            <ion-icon name="ios-arrow-{{acordionAtivo=='passo-9'?'up':'down'}}" slot="end"></ion-icon>
+          </ion-item>
+          <div class="body" [ngClass]="{'active':acordionAtivo=='passo-9'}">
+              Dar preferência, quando fora de casa, a locais que servem refeições feitas na hora.
+          </div>
+      </div>
+      <div class="acordion">
+          <ion-item [ngClass]="{'activated':acordionAtivo=='passo-10'}" (click)="openAcordion('passo-10')">
+            <ion-icon name="help-circle-outline" slot="start"></ion-icon>
+            <ion-label>Passo 10</ion-label>
+            <ion-icon name="ios-arrow-{{acordionAtivo=='passo-10'?'up':'down'}}" slot="end"></ion-icon>
+          </ion-item>
+          <div class="body" [ngClass]="{'active':acordionAtivo=='passo-10'}">
+              Ser crítico quanto a informações, orientações e mensagens sobre alimentação veiculadas em propagandas comerciais.
+          </div>
+      </div>
+      
+      
+      </ion-card>
+
+      <ion-card class="welcome-card">
+        <img src="../../assets/images/prato-correto.png" alt="" />
+        <ion-card-header>
+          <ion-card-title>Montagem Correta do Prato</ion-card-title>
+        </ion-card-header>
+      </ion-card>
+
+
+</ion-content>

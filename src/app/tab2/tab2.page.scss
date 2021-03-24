@@ -1,0 +1,14 @@
+
+.acordion{
+    .body{
+        max-height: 0px;
+        transition: all 0.55s;
+        color: #fff;
+        &.active{
+            height: 152px;
+            padding: 23px 21px 60px;
+            transition: all 0.55s;
+            color: #000;
+        }
+    }
+} 
