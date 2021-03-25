@@ -1,7 +1,0 @@
-{
-  "name": "app-nutricao",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
-}
