@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "LevelStudio RN Drawer Navigation Example",
+    "slug": "ls-example-drawer-navigation",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/images/1024x1024Icon.png"
+    },
+    "android": {
+      "icon": "./assets/images/512x512Icon.png",
+      "versionCode": 1
+    }
+  }
+}
